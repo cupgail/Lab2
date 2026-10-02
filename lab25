@@ -1,0 +1,15 @@
+t = int(input("Введіть хвилину світофора = "))
+
+if t <= 6:
+    if t <= 3:
+        print("Green")
+    elif t == 4:
+        print("Yellow")
+    else:
+        print("Red")
+elif t % 6 <= 3:
+    print("Green")
+elif t % 6 == 4:
+    print("Yellow")
+elif t % 6 == 5:
+    print("Red")

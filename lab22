@@ -1,0 +1,13 @@
+print("1 - Window, 2 - Linux, 3 - MacOS")
+os = int(input("Enter number of you OS: "))
+
+if os == 1:
+    print("Windows")
+elif os == 2:
+    print("Linux")
+elif os == 3:
+    print("MacOS")
+else:
+    print("You did not enter a number. " \
+    "Program has completed work. " \
+    "We could not determine your operating system.")

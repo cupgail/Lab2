@@ -1,0 +1,29 @@
+a = float(input("Введіть число a = "))
+b = float(input("Введіть число b = "))
+c = str(input("Введіть дію: "))
+
+if c == "+":
+    print(a + b)
+elif c == "-":
+    print(a - b)
+elif c == "*":
+    print(a * b)
+elif c == "/":
+    if b == 0:
+        print("Division by 0!")
+    else:
+        print(a / b)
+elif c == "mod":
+    if b == 0: 
+        print("Division by 0!")
+    else:
+        print(a % b)
+elif c == "pow":
+    print(a ** b)
+elif c == "div":
+    if b == 0:
+        print("Division by 0!")
+    else:
+        print(a // b)
+else:
+    print("Дана операція відсутня")
